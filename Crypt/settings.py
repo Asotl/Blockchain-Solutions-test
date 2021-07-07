@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -70,7 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Crypt.wsgi.application'
-ASGI_APPLICATION = 'Crypt.routing.application'
+ASGI_APPLICATION = 'Crypt.asgi.application'
 
 
 
